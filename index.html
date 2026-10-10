@@ -1,0 +1,519 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Marvey Adel Ramzy — Data Engineer, Software Developer, and Biomedical Informatics Student at Nile University. Specializing in Data Warehousing, ETL Pipelines, Java Applications, and NLP.">
+  <title>Marvey Adel Ramzy | Data Engineer & Software Developer</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">M</div>
+        <div class="nav-logo-text">Marvey<span>.dev</span></div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <a href="assets/docs/Marvey_CV.pdf" download="Marvey_Adel_CV.pdf" class="btn btn-primary btn-sm">
+          <span>Download CV</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section" id="about">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>Open for Freelance &amp; Engineering Roles</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span>Marvey Adel</span>.<br>Data Engineer &amp; Programmer.
+        </h1>
+        <p class="hero-subtitle">
+          Biomedical Informatics student at <strong>Nile University</strong>. I architect reliable <strong>Star Schema Data Warehouses</strong>, automated <strong>ETL &amp; Web Scraping pipelines</strong>, production-grade <strong>Java software</strong>, and intelligent <strong>Arabic NLP systems</strong>.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="assets/docs/Marvey_CV.pdf" download="Marvey_Adel_CV.pdf" class="btn btn-outline">
+            <span>Download CV (PDF)</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat-card">
+            <span class="hero-stat-number">4+</span>
+            <span class="hero-stat-label">Flagship Projects</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="hero-stat-number">0.9084</span>
+            <span class="hero-stat-label">Best F1-Score (NLP)</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="hero-stat-number">100%</span>
+            <span class="hero-stat-label">Kimball Star Schema</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="hero-stat-number">2028</span>
+            <span class="hero-stat-label">Nile University (B.Sc.)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-avatar-card">
+        <div class="hero-avatar-wrapper">
+          <img src="assets/images/avatar.svg" alt="Marvey Adel Ramzy" class="hero-avatar-img">
+          
+          <div class="floating-badge floating-badge-1">
+            <div class="floating-badge-icon">⚡</div>
+            <div>
+              <div class="floating-badge-title">Data Warehousing</div>
+              <div class="floating-badge-sub">SQL Server &amp; Star Schema</div>
+            </div>
+          </div>
+
+          <div class="floating-badge floating-badge-2">
+            <div class="floating-badge-icon">🔬</div>
+            <div>
+              <div class="floating-badge-title">Biomedical Systems</div>
+              <div class="floating-badge-sub">Health Informatics &amp; Signals</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Core Competencies</span>
+        <h2 class="section-title">Technical Expertise &amp; Tools</h2>
+        <p class="section-desc">A specialized toolkit combining database architecture, algorithmic programming, machine learning, and health technology.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. Data Engineering -->
+        <div class="skill-category-card">
+          <div class="skill-card-icon icon-de">🗄️</div>
+          <h3 class="skill-card-title">Data Engineering &amp; DW</h3>
+          <div class="skill-pill-list">
+            <span class="skill-pill">MS SQL Server</span>
+            <span class="skill-pill">T-SQL</span>
+            <span class="skill-pill">Star Schema</span>
+            <span class="skill-pill">Dimensional Modeling</span>
+            <span class="skill-pill">ETL Pipelines</span>
+            <span class="skill-pill">Recursive CTEs</span>
+            <span class="skill-pill">Triggers &amp; Stored Procs</span>
+            <span class="skill-pill">MongoDB (NoSQL)</span>
+          </div>
+        </div>
+
+        <!-- 2. Software Development -->
+        <div class="skill-category-card">
+          <div class="skill-card-icon icon-se">💻</div>
+          <h3 class="skill-card-title">Software Engineering</h3>
+          <div class="skill-pill-list">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Java (OOP)</span>
+            <span class="skill-pill">Java Swing GUI</span>
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">Custom 2D Graphics</span>
+            <span class="skill-pill">File I/O Persistence</span>
+            <span class="skill-pill">Data Structures</span>
+            <span class="skill-pill">Modular Architecture</span>
+          </div>
+        </div>
+
+        <!-- 3. AI & NLP -->
+        <div class="skill-category-card">
+          <div class="skill-card-icon icon-ai">🤖</div>
+          <h3 class="skill-card-title">AI, NLP &amp; Scraping</h3>
+          <div class="skill-pill-list">
+            <span class="skill-pill">PyTorch</span>
+            <span class="skill-pill">Hugging Face</span>
+            <span class="skill-pill">CAMeLBERT (Arabic)</span>
+            <span class="skill-pill">Flask REST API</span>
+            <span class="skill-pill">Selenium WebDriver</span>
+            <span class="skill-pill">Pandas &amp; NumPy</span>
+            <span class="skill-pill">XPath &amp; CSS Selectors</span>
+          </div>
+        </div>
+
+        <!-- 4. Biomedical -->
+        <div class="skill-category-card">
+          <div class="skill-card-icon icon-bio">🩺</div>
+          <h3 class="skill-card-title">Biomedical Informatics</h3>
+          <div class="skill-pill-list">
+            <span class="skill-pill">Health Informatics</span>
+            <span class="skill-pill">PPG Signal Processing</span>
+            <span class="skill-pill">SciPy Peak Detection</span>
+            <span class="skill-pill">Medical Prototypes</span>
+            <span class="skill-pill">Biomedical Systems</span>
+            <span class="skill-pill">Clinical Data Analysis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio Showcase</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">Production-grade systems, analytical pipelines, and software applications built with modern engineering standards.</p>
+      </div>
+
+      <!-- Category Filter Buttons -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="de">Data Engineering</button>
+        <button class="filter-btn" data-filter="se">Software Development</button>
+        <button class="filter-btn" data-filter="ai">AI &amp; NLP</button>
+        <button class="filter-btn" data-filter="bio">Biomedical</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        
+        <!-- Project 1: Restaurant SQL Data Warehouse -->
+        <div class="project-card" data-category="de">
+          <div class="project-img-container">
+            <img src="assets/images/projects/sql-dw.svg" alt="Restaurant Data Warehouse & ETL" class="project-img">
+            <span class="project-badge-top">Data Engineering</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Restaurant Star Schema Data Warehouse &amp; ETL Pipeline</h3>
+            <p class="project-description">
+              Dual-tier database system in MS SQL Server: Normalized OLTP database and Kimball Star Schema Data Warehouse with recursive CTE date generation and automated ETL.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">T-SQL</span>
+              <span class="tech-tag">Star Schema</span>
+              <span class="tech-tag">ETL</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="project-view-btn" data-project-id="restaurant">
+                <span>View Details &amp; Schema</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: ClinicCare Java System -->
+        <div class="project-card" data-category="se">
+          <div class="project-img-container">
+            <img src="assets/images/cliniccare/01_Dashboard.png" alt="ClinicCare Healthcare System" class="project-img">
+            <span class="project-badge-top">Software &amp; Medical</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">ClinicCare — Healthcare Appointment &amp; Practice System</h3>
+            <p class="project-description">
+              Desktop clinical management system with interactive KPI dashboards, custom-rendered bar and donut charts, schedule conflict prevention, and OOP file persistence.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Swing GUI</span>
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">Analytics</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="project-view-btn" data-project-id="cliniccare">
+                <span>View Screenshots &amp; Code</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: SentimentAI NLP Platform -->
+        <div class="project-card" data-category="ai">
+          <div class="project-img-container">
+            <img src="assets/images/projects/nlp-arabic.svg" alt="SentimentAI NLP Platform" class="project-img">
+            <span class="project-badge-top">AI &amp; Deep Learning</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SentimentAI — Arabic Aspect-Based Sentiment Analyzer</h3>
+            <p class="project-description">
+              End-to-end NLP system fine-tuning CAMeLBERT on Arabic text (0.9084 F1-score) accompanied by a Flask REST API backend and bilingual interactive web application.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">PyTorch</span>
+              <span class="tech-tag">CAMeLBERT</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">NLP</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="project-view-btn" data-project-id="sentimentai">
+                <span>View Details &amp; Metrics</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Automated Web Scraping Pipeline -->
+        <div class="project-card" data-category="de">
+          <div class="project-img-container">
+            <img src="assets/images/projects/web-scraping.svg" alt="Automated Web Scraping Pipeline" class="project-img">
+            <span class="project-badge-top">Data Extraction</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Automated E-Commerce &amp; Job Market Web Scraping Pipeline</h3>
+            <p class="project-description">
+              Automated crawler extracting live e-commerce product catalogs and job market data using Selenium WebDriver, XPath parsing, and structured Pandas DataFrame exports.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Selenium</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">XPath</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="project-view-btn" data-project-id="scraping">
+                <span>View Details &amp; Pipeline</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Biomedical PPG Signal Analytics -->
+        <div class="project-card" data-category="bio">
+          <div class="project-img-container">
+            <img src="assets/images/projects/biomedical-ppg.svg" alt="Biomedical PPG Signal Analytics" class="project-img">
+            <span class="project-badge-top">Biomedical Informatics</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Biomedical PPG Signal Processing &amp; Heart Rate Analytics</h3>
+            <p class="project-description">
+              Digital signal processing algorithms for simulated PPG physiological waveforms, implementing SciPy peak detection and calculating inter-beat intervals for BPM diagnosis.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SciPy Signal</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Physiology</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="project-view-btn" data-project-id="ppg">
+                <span>View Details &amp; Algorithms</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: NASA Space Apps -->
+        <div class="project-card" data-category="se">
+          <div class="project-img-container">
+            <img src="assets/images/projects/sql-dw.svg" alt="NASA Space Apps Challenge" class="project-img">
+            <span class="project-badge-top">Web &amp; Storytelling</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">NASA Space Apps Challenge — Interactive Storytelling Platform</h3>
+            <p class="project-description">
+              Collaborative web platform architected to visualize space exploration datasets for public engagement, combining interactive storytelling with scientific data delivery.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5/CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Data Visuals</span>
+              <span class="tech-tag">NASA Hackathon</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="project-view-btn" data-project-id="nasa">
+                <span>View Project Story</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education &amp; Qualifications</h2>
+        <p class="section-desc">Solid academic foundation combining computer science, biomedical engineering, and health informatics.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2024 — 2028 (Expected)</div>
+            <h3 class="timeline-degree">B.Sc. in Biomedical Informatics</h3>
+            <div class="timeline-school">Nile University — School of Information Technology &amp; Computer Science (ITCS)</div>
+            <p class="timeline-text">
+              Comprehensive coursework covering <strong>Database Systems</strong>, <strong>Programming &amp; Data Structures</strong>, <strong>Biomedical Systems</strong>, <strong>Health Informatics</strong>, and <strong>Big Data Technologies</strong>. Combining computational engineering with medical domain applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2024</div>
+            <h3 class="timeline-degree">General Secondary Education Certificate (Thanaweya Amma)</h3>
+            <div class="timeline-school">Samalout High School for Girls</div>
+            <p class="timeline-text">
+              High academic distinction with emphasis on mathematics, physical sciences, and analytical problem solving.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Freelance Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div>
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="contact-info-title">Ready to Collaborate on Your Next Data or Software Project?</h2>
+          <p class="contact-info-desc">
+            Whether you need a robust SQL Server Data Warehouse, an automated ETL / Web Scraping pipeline, or custom software development, I'm available for freelance contracts and engineering collaborations.
+          </p>
+
+          <div class="contact-channels">
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">📍</div>
+              <div>
+                <div class="contact-channel-label">Location</div>
+                <div class="contact-channel-val">6 October City, Giza / Cairo, Egypt</div>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">✉️</div>
+              <div>
+                <div class="contact-channel-label">Email</div>
+                <div class="contact-channel-val">marvey.adel@email.com</div>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">📞</div>
+              <div>
+                <div class="contact-channel-label">Phone</div>
+                <div class="contact-channel-val">+20 127 959 7369</div>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">🔗</div>
+              <div>
+                <div class="contact-channel-label">LinkedIn</div>
+                <div class="contact-channel-val"><a href="https://linkedin.com/in/marvey-adel" target="_blank" rel="noopener">linkedin.com/in/marvey-adel</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-actions-box">
+          <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 8px;">Quick Actions</h3>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 16px;">
+            Copy contact details directly or initiate communication:
+          </p>
+
+          <button onclick="copyEmail('marvey.adel@email.com')" class="btn btn-outline" style="width: 100%;">
+            <span>📋 Copy Email Address</span>
+          </button>
+
+          <a href="mailto:marvey.adel@email.com?subject=Freelance%20Project%20Inquiry%20-%20Data%20Engineering" class="btn btn-primary" style="width: 100%;">
+            <span>✉️ Send Direct Email</span>
+          </a>
+
+          <a href="assets/docs/Marvey_CV.pdf" download="Marvey_Adel_CV.pdf" class="btn btn-outline" style="width: 100%;">
+            <span>📄 Download Official CV (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Details Modal -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <span class="project-badge-top" id="modalCategoryBadge" style="position: static; display: inline-block; margin-bottom: 6px;"></span>
+          <h2 id="modalTitle" style="font-size: 1.4rem; font-weight: 800;"></h2>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-gallery" id="modalGalleryContainer">
+          <img src="" alt="Project Visual" class="modal-gallery-img" id="modalGalleryImg">
+          <div class="modal-gallery-controls" id="modalGalleryControls">
+            <button class="modal-gallery-btn" id="modalPrevBtn">◀ Previous</button>
+            <span class="modal-gallery-counter" id="modalGalleryCounter">1 / 1</span>
+            <button class="modal-gallery-btn" id="modalNextBtn">Next ▶</button>
+          </div>
+        </div>
+
+        <div id="modalDetailsContent" class="modal-details-prose" style="font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 24px;"></div>
+
+        <div>
+          <h4 style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 10px;">Technologies &amp; Architecture:</h4>
+          <div class="project-tech-stack" id="modalTechTags"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Marvey Adel Ramzy. Built with modern web engineering standards.</p>
+      <p style="margin-top: 6px; font-size: 0.8rem; color: var(--text-muted);">Data Engineering • Java Development • Biomedical Informatics</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
